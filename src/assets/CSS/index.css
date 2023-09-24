@@ -30,9 +30,8 @@ aside {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  width: 12rem;
+  width: 13rem;
   background-color: var(--color-menu-background);
-
   position: fixed;
   top: 0%;
   left: 0%;
@@ -40,25 +39,25 @@ aside {
 
 }
 
-aside div {
-  margin: 2rem 0rem;
-  margin-left: -10px;
-}
-
 aside div img {
   width: 6rem;
   cursor: pointer;
 }
 
+aside div {
+  margin: 2rem 1.5rem ;
+  margin-left: -10px;
+}
+
 
 ul {
   list-style-type: none;
+  
 }
 
 li > a {
   display: flex;
   align-items: center;
-  
   text-decoration: none;
   padding: 0rem 0.4rem;
   border-radius: 10px;
@@ -71,9 +70,11 @@ li > a:hover {
   color: var(--color-white);
 }
 
-li > a > span {
+
+li > a > span { 
   margin: 0.6rem 0px;
   padding: 0.3rem;
+  
 }
 
 .logout {
@@ -86,6 +87,7 @@ li > a > span {
 }
 
 .logout button {
+  margin-left: 2rem;
   padding: 0.6rem 1rem;
   font-size: 0.9rem;
   border-radius: 10px;
